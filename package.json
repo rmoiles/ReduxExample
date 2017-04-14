@@ -1,0 +1,33 @@
+{
+  "name": "reduxexample",
+  "version": "1.0.0",
+  "description": "Just testing redux with Kony",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel src -d lib && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmoiles/ReduxExample.git"
+  },
+  "author": "Robert Moiles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmoiles/ReduxExample/issues"
+  },
+  "homepage": "https://github.com/rmoiles/ReduxExample#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-preset-latest": "^6.16.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.1",
+    "eslint-plugin-react": "^6.8.0",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "redux": "^3.6.0"
+  }
+}

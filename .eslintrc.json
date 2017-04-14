@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb/base",
+    "installedESLint": true,
+    "plugins": [
+        "import"
+    ],
+    "env": {
+      "jasmine": true,
+      "es6": true
+    },
+    "rules": {
+    	"no-undef": "warn"
+    }
+}
